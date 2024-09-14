@@ -1,0 +1,97 @@
+body {
+    font-family: sans-serif;
+    background-color:#C0C78C;
+}
+
+header {
+    justify-content: space-between;
+    padding: 30px ;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #89975c;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+nav {
+    border-top: 5px solid #A6B37D;
+    border-bottom: 5px solid #A6B37D;
+    padding: 25px 100px 25px 95px;
+    justify-content: space-between;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: #f7f3f8;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 24px;
+}
+
+.info {
+    flex-wrap: wrap;
+    width: 1100px;
+    margin: 0px;
+}
+
+article {
+    background-color:#ffffff ;
+    padding:10px ;
+    width: 400px;
+    margin: 5px;
+}
+
+.article-but {
+    text-decoration: none;
+    background-color: rgb(127, 145, 80);
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+}
+
+footer {
+    background-color: white;
+    padding:10px ;
+}
+
+footer a {
+    margin-right:5px ;
+}
+
+footer p {
+    font-size: 24px;
+}
+header,nav, .info,footer{
+    display: flex;
+}
+
+header p{
+    font-family: 'Satisfy';
+
+}
+
+.about{
+    text-align: center;
+
+}
+
+.about div{
+    display: flex;
+    justify-content: space-around;
+}
